@@ -5,7 +5,7 @@ import '../styles.css'
 function AboutUs() {
   return (
     <div>
-      <Link to="/main" className="btn-back" >back</Link>
+      <Link to="/degreeworks_helper/main" className="btn-back" >back</Link>
             <div className="main-square">
                 <h1>About</h1>
                 <p>

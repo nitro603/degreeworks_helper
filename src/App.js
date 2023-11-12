@@ -8,11 +8,11 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Login/>}> </Route>
-        <Route path="/Login" element={<Login/>}></Route>
-        <Route path="/AboutUs" element={<AboutUs/>}></Route>
-        <Route path="/Main" element={<Main saveState={false}/>}></Route>
-        <Route path="/Saved" element={<Main saveState={true}/>}></Route>
+        <Route path="/degreeworks_helper" element={<Login/>}> </Route>
+        <Route path="/degreeworks_helper/login" element={<Login/>}></Route>
+        <Route path="/degreeworks_helper/aboutUs" element={<AboutUs/>}></Route>
+        <Route path="/degreeworks_helper/main" element={<Main saveState={false}/>}></Route>
+        <Route path="/degreeworks_helper/saved" element={<Main saveState={true}/>}></Route>
       </Routes>
     </BrowserRouter>
   );

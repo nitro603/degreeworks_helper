@@ -4,7 +4,7 @@ import '../login.css'
 function Login() {
 
   const changeSite = () =>{
-    window.location = '/main'
+    window.location = '/degreeworks_helper/main'
   }
 
   return (
