@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://nitro603.github.io/degreeworks_helper/",
+  "homepage": "./",
   "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
