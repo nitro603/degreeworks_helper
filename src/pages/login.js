@@ -1,11 +1,11 @@
 import React from 'react'
 import '../login.css'
+import '../styles.css'
+import { Link } from 'react-router-dom'
 
 function Login() {
 
-  const changeSite = () =>{
-    window.location = '/degreeworks_helper/main'
-  }
+
 
   return (
     <div class="login-box">
@@ -20,7 +20,7 @@ function Login() {
                 <label>Password</label>
             </div>
         </form>
-        <button onClick={changeSite} type="submit">Submit</button>
+        <Link to="/main" className="login-button" >Login</Link>
     </div>
   )
 }

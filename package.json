@@ -1,8 +1,8 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "https://nitro603.github.io/degreeworks_helper/",
-  "private": true,
+  "homepage": "https://nitro603.github.io/#/degreeworks_helper",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
@@ -41,6 +41,6 @@
   },
   "devDependencies": {
     "gh-pages": "^6.0.0",
-    "react-router-dom": "^6.17.0"
+    "react-router-dom": "6.4"
   }
 }

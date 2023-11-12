@@ -10,18 +10,18 @@ function Navbar({ variant }) { // Use destructuring here to get the variant prop
         <div className={save ? 'saved' : 'main'}>
             <div className="top-buttons">
                 <div className="logo-container">
-                    <Link to="/degreeworks_helper/main">
+                    <Link to="/main">
                         <img src={logo} alt="Logo" className="header-logo" />
                     </Link>
             </div>
                 <div className="title-container">
                     {save ? (
-                        <Link to="/degreeworks_helper/main" className="btn-saved" onClick={() => setSave(false)}>New Search</Link>
+                        <Link to="/main" className="btn-saved" onClick={() => setSave(false)}>New Search</Link>
                     ) : (
-                        <Link to="/degreeworks_helper/saved" className="btn-main" onClick={() => setSave(true)}>Saved Items</Link>
+                        <Link to="/saved" className="btn-main" onClick={() => setSave(true)}>Saved Items</Link>
                     )}
-                    <Link to="/degreeworks_helper/login" className="btn-regular">Login</Link>
-                    <Link to="/degreeworks_helper/aboutUs" className="btn-regular">About Us</Link>
+                    <Link to="/login" className="btn-regular">Login</Link>
+                    <Link to="/aboutUs" className="btn-regular">About Us</Link>
                 </div>
             </div>
         </div>
